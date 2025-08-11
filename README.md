@@ -28,26 +28,21 @@ git clone https://github.com/<your-username>/jenkins-install-script.git
 cd jenkins-install-script
 ```
 
-2️⃣ Make the script executable
-bash
+###2️⃣ Make the script executable
+```bash
 chmod +x install_jenkins.sh
-3️⃣ Run the script
-bash
-Copy
-Edit
+```
+###3️⃣ Run the script
+```bash
 ./install_jenkins.sh
 🌐 Access Jenkins
 After installation, open your browser and go to:
-
-text
-Copy
-Edit
 http://<your_server_ip>:8080
-🔑 Initial Admin Password
+```
+###🔑 Initial Admin Password
 The script will automatically display the Jenkins admin password.
 If you need to retrieve it later:
 
-bash
-Copy
-Edit
+```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+```
