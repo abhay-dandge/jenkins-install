@@ -26,12 +26,10 @@ It automatically installs Java, adds the Jenkins repository, installs Jenkins, a
 ```bash
 git clone https://github.com/<your-username>/jenkins-install-script.git
 cd jenkins-install-script
-
+```
 
 2️⃣ Make the script executable
 bash
-Copy
-Edit
 chmod +x install_jenkins.sh
 3️⃣ Run the script
 bash
