@@ -14,7 +14,7 @@ sudo apt update -y
 
 # 2️⃣ Install Java (Jenkins requires Java 11+)
 echo "☕ Installing Java..."
-sudo apt install -y openjdk-17-jdk
+sudo apt install -y openjdk-21-jdk
 
 # 3️⃣ Add Jenkins repository key
 echo "🔑 Adding Jenkins GPG key..."
